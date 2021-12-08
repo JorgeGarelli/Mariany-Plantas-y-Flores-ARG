@@ -1,0 +1,131 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+    width: 100%;
+    background:black;
+    height: 70px;
+  }
+/*Modificando El Ancho */
+.ancho{
+    width: 80%;
+    height: 70px;
+    /*background: red;*/
+    margin: auto;
+  }
+
+  .logo{
+    width: 30%;
+    height: 70px;
+   /* background: blue; */
+    float: left;
+    padding-top: 10px;
+    box-sizing: border-box;
+  }
+  .logo p a{
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Archi;
+  }
+
+  nav{
+    width: 70%;
+    height: 70px;
+    /*background: olive;*/
+     float: left;
+     text-align: right;
+     padding-top: 24px;
+     box-sizing: border-box;
+  }
+
+  nav ul li{
+    display: inline;
+  }
+
+  nav ul li a{
+    color: white;
+    font-size: 13px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: Archi;
+  }
+  nav ul li a:hover{
+    color:#00ACC1;
+
+  }
+
+  @font-face{
+    font-family:Rale;
+    src: url(Fuentes/Raleway-Regular.ttf);
+}
+
+  @font-face{
+    font-family:Archi;
+    src: url(Fuentes/Archi.ttf);
+}
+
+.ancho li i{
+  margin-right: 10px;
+}
+
+/*FORMULARIO CONTACTO*/
+
+form{
+  width: 450px;
+  margin: auto;
+  background-image: url("Imagenes/Fondo1.png");
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 100px;
+  border-radius: 7px;
+}
+
+h2{
+  color:#ffff;
+  text-align: center;
+  margin: 0;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+input, textarea{
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 17px;
+  border:none;
+}
+
+textarea{
+min-height: 100px;
+max-height: 200px;
+max-width: 100%;
+}
+
+#boton{
+  background: #31384A
+  color:white;
+  padding: 20px;
+}
+
+#boton:hover{
+  cursor: pointer;
+}
+
+@media (max-width:480px){
+  form{
+    width: 100%;
+  }
+}
